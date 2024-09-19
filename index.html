@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificação Personalizada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, textarea {
+            margin: 10px;
+            padding: 10px;
+            width: 80%;
+            max-width: 500px;
+        }
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apenas Daniel e Henrique</h1>
+    
+    <textarea id="inputText" placeholder="Digite seu texto aqui..." rows="5"></textarea>
+    <br>
+    <button onclick="codificar()">Codificar</button>
+    <button onclick="decodificar()">Decodificar</button>
+    
+    <h2>Resultado:</h2>
+    <p id="result"></p>
+
+    <script src="codigo_personalizado.js"></script>
+</body>
+</html>
